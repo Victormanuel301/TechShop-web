@@ -52,14 +52,18 @@
     }
 
     .productos {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-template-columns: repeat(auto-fit, minmax(250px, 0fr));
-    gap: 20px;
+    gap: 1emp;
     margin-left: 400px;
     margin-bottom: 20px;
+    justify-content: center;
     }
 
     .producto {
+    flex: 1 1 300px
+    box-size: border-box;
     background: #fff;
     border-radius: 10px;
     padding: 10px;
