@@ -94,7 +94,8 @@
     .button {
     border-radius: 10px;
     background: black;
-    width: 500px;
+    width: 200px;
+    height: 50px;
     }
     .button:hover {
     transform: scale(1.02);
