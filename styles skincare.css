@@ -59,6 +59,7 @@
     border-radius: 10px;
     background: black;
     margin: 5px;
+    height: 50px;
     }
     .button:hover {
     transform: scale(1.02);
