@@ -49,6 +49,7 @@ header nav a {
     height: auto;
     display: block;
     border-bottom: 3px solid var(--rosa);
+     border-top: 3px solid var(--rosa);
 }
 
 .productos {
