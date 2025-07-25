@@ -55,6 +55,7 @@ header nav a {
 .productos {
     padding: 2rem 1rem;
     text-align: center;
+    border-bottom: 3px solid var(--rosa);
 }
 
 .galeria {
