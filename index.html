@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechShop - Tienda de Tecnología</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="t.jpg" type="image/jpg">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Tech<span>Shop</span></a>
+            </div>
+            
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#ofertas">Ofertas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <div class="search-box">
+                    <input type="text" placeholder="Buscar productos...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </div>
+                <div class="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>La mejor tecnología al mejor precio</h1>
+                    <p>Descubre nuestros últimos productos y ofertas exclusivas</p>
+                    <a href="#productos" class="btn">Ver productos</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories">
+            <div class="container">
+                <h2 class="section-title">Categorías</h2>
+                <div class="categories-grid">
+                    <div class="category-card" data-category="reproductoras">
+                        <img src="foto-categorias/reproductoras.jpg" alt="Reproductoras">
+                        <h3>Reproductoras de Carro</h3>
+                    </div>
+                    <div class="category-card" data-category="bocinas">
+                        <img src="foto-categorias/bocinas.jpg" alt="Bocinas">
+                        <h3>Bocinas</h3>
+                    </div>
+                    <div class="category-card" data-category="otros">
+                        <img src="foto-categorias/otros.jpg" alt="Otros">
+                        <h3>Otros</h3>
+                    </div>
+                    <div class="category-card" data-category="audifonos">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Audifonos">
+                        <h3>Audifonos</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products" id="productos">
+            <div class="container">
+                <h2 class="section-title">Nuestros Productos</h2>
+                <div class="filter-options">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="destacado">Destacados</button>
+                    <button class="filter-btn" data-filter="reproductoras">Reproductoras de Carro</button>
+                    <button class="filter-btn" data-filter="bocinas">Bocinas</button>
+                    <button class="filter-btn" data-filter="otros">Otros</button>
+                    <button class="filter-btn" data-filter="audifonos">Audifonos</button>
+                </div>
+                <div class="products-grid" id="products-container">
+                    <!-- Los productos se cargarán dinámicamente desde script.js -->
+                </div>
+            </div>
+        </section>
+
+        <section class="featured" id="ofertas">
+            <div class="container">
+                <h2 class="section-title">Ofertas Especiales</h2>
+                <div class="featured-products">
+                    <!-- Los productos destacados se cargarán dinámicamente -->
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Suscríbete a nuestro newsletter</h2>
+                    <p>Recibe ofertas exclusivas y las últimas novedades en tecnología</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit" class="btn">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>TechShop</h3>
+                    <p>La mejor tienda de tecnología con los últimos productos y las mejores ofertas.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/viti_mzg13?igsh=MXVjajQyNnBvdjdyaA=="><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="https://chat.whatsapp.com/Go6SiALh2fR6kNx5850JAU"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#ofertas">Ofertas</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Información</h3>
+                    <ul>
+                        <li><a href="#">Sobre nosotros</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i>Reparto Camacho Calle A / 14 y Final Casa 4a , Santa Clara.</li>
+                        <li><i class="fas fa-phone"></i> +53 56486886</li>
+                        <li><i class="fas fa-envelope"></i>victormanuelzaballa6@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechShop. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal del carrito -->
+    <div class="cart-modal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3>Tu Carrito</h3>
+                <span class="close-cart">&times;</span>
+            </div>
+            <div class="cart-body">
+                <div class="cart-items">
+                    <!-- Los items del carrito se cargarán dinámicamente -->
+                </div>
+                <div class="cart-total">
+                    <p>Total: <span class="total-price">$0.00</span></p>
+                </div>
+            </div>
+            <div class="cart-footer">
+                <button class="btn btn-empty">Vaciar Carrito</button>
+                <button class="btn btn-checkout">Finalizar Compra</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de producto -->
+    <div class="product-modal">
+        <div class="product-modal-content">
+            <span class="close-product-modal">&times;</span>
+            <div class="product-modal-body">
+                <!-- Contenido se cargará dinámicamente -->
+            </div>
+        </div>
+    </div>
+    <a href="https://wa.me/5356486886?text=Hola%2C%20quiero%20información%20sobre%20sus%20productos" class="whatsapp" target="_blank" title="Escríbenos por WhatsApp"> 💬</a>
+
+    <script src="db.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
