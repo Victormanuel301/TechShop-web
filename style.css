@@ -375,7 +375,7 @@ h1, h2, h3, h4, h5, h6 {
 .product-image {
     height: 25rem;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: var(--transition);
 }
 
