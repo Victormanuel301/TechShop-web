@@ -190,7 +190,7 @@ const productos = [
         descripcion: "Ventilador portátil para camping con luz LED, 270° de giro, USB, a batería, esencial para viajes y actividades al aire librencolor naranja.",
         precio: 16000,
         categoria: "otros",
-        imagen: img.src = "foto-productos/ventilador-recargable-verde.jpg",
+        imagen: img.src = "foto-productos/ventilador-recargable-naranja.jpg",
         destacado: true
     },
 ];
