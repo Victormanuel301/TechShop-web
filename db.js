@@ -12,11 +12,11 @@ const productos = [
     },
     {
         id: 2,
-        nombre: "M19 V5.3-NEWEST",
-        descripcion: "Audífonos Deportivoncon Pantalla de Energía, Micrófono Cancelador de Ruido y Sonido HiFi - Recargables por USB-C, con linterna equipada.",
+        nombre: "M25 WIRELESS 5.3 ",
+        descripcion: "Audífonos Deportivos Inalámbricos M25 con Pantalla de Energía, Micrófono Cancelador de Ruido y Sonido HiFi - Recargables por USB-C.",
         precio: 3500,
         categoria: "audifonos",
-        imagen : img.src = "foto-productos/audifono-m19.jpg",
+        imagen : img.src = "foto-productos/audifono-m25.jpg",
         destacado: true 
     },
     {
