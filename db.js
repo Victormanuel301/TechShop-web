@@ -41,7 +41,7 @@ const productos = [
         id: 5,
         nombre: "X15",
         descripcion: "Auriculares inalámbricos con efectos de iluminación LED, latencia ultra baja, cancelación activa de ruido, pantalla digital y sonido estéreo,incluye estuche de carga, carga USB-C y diseño portátil",
-        precio: 3000,
+        precio: Agotado,
         categoria: "audifonos",
         imagen : img.src = "foto-productos/audifono-x15.jpg",
         destacado: false 
