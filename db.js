@@ -76,7 +76,7 @@ const productos = [
     // PRODUCTOS CATEGORIA:REPRODUCTORAS DE CARRO
     {
         id: 9,
-        nombre: "Reproductor MP5",
+        nombre: "",
         descripcion: "Reproductor MP5 Android Auto KEPEAK de 17.78 cm - Estéreo para auto 2DIN con conectividad inalámbrica, radio FM, pantalla táctil, entradas USB/SD/Aux, control desde el volante, llamadas y mensajes de texto manos libres, ajuste universal para la mayoría de autos.",
         precio: 40000,
         categoria: "reproductoras",
@@ -85,7 +85,7 @@ const productos = [
     },
     {
         id: 10,
-        nombre: "Reproductor MP5",
+        nombre: "",
         descripcion: "radio para auto con pantalla LCD de 17.78 cm, doble DIN, ecualizador, reproductor MP5 con entrada USB/SD/AUX, enlace espejo, control remoto, 4 luces LED para cámara de reversa, reproductor multimedia portátil.",
         precio: 40000,
         categoria: "reproductoras",
@@ -94,7 +94,7 @@ const productos = [
     },
     {
         id: 11,
-        nombre: "Reproductor MP3",
+        nombre:"",
         descripcion: "Estéreo para auto CAMECHO 1DIN con control remoto, audio digital inalámbrico, música, 12V, MP3, USB/SD/AUX-IN.",
         precio: 15000,
         categoria: "reproductoras",
@@ -103,7 +103,7 @@ const productos = [
     },
     {
         id: 12,
-        nombre: "Car Radio Full Screen",
+        nombre: "",
         descripcion: "Radio para auto con pantalla de 9″ Android de la marca Auto GP ofrece una experiencia avanzada en entretenimiento vehicular. Con un diseño de 2 din, esta pantalla táctil de 9″ proporciona una visualización clara y amplia. Con 2 GB de RAM y 16 GB de almacenamiento interno, ofrece un rendimiento fluido. La conectividad Bluetooth permite la reproducción inalámbrica y las llamadas manos libres. El GPS integrado proporciona navegación precisa, mientras que el puerto USB y la reproducción MP5 ofrecen opciones versátiles para el entretenimiento.",
         precio: 60000,
         categoria: "reproductoras",
