@@ -76,7 +76,7 @@ const productos = [
     // PRODUCTOS CATEGORIA:REPRODUCTORAS DE CARRO
     {
         id: 9,
-        nombre: ""Reproductor MP5 Android Auto KEPEAK",
+        nombre: "Reproductor MP5",
         descripcion: "Reproductor MP5 Android Auto KEPEAK de 17.78 cm - Estéreo para auto 2DIN con conectividad inalámbrica, radio FM, pantalla táctil, entradas USB/SD/Aux, control desde el volante, llamadas y mensajes de texto manos libres, ajuste universal para la mayoría de autos.",
         precio: 40000,
         categoria: "reproductoras",
