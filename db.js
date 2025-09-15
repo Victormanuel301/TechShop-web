@@ -124,25 +124,25 @@ const productos = [
         id: 13,
         nombre: "Bocinas A012",
         descripcion: "Altavoz portátil inalámbrico A012 con 5W de potencia, resistente al agua, batería de 800 mAh y Bluetooth. Compatible con tarjetas de memoria.",
-        precio: 3500,
+        precio: 4000,
         categoria: "bocinas",
         imagen : img.src = "foto-productos/bocina-a012.jpg",
         destacado: true
     },
-    {
+     /*{ AGOTADO
         id: 14,
         nombre: "Karaoke",
         descripcion: "Karaoke portátil con un micrófono, altavoz Bluetooth de alta fidelidad con luces de colores, compatible con tarjeta TF, USB y AUX, tamaño mini para viajes, fiestas y exteriores (rosa).",
-        precio: 3500,
+        precio: 4000,
         categoria: "bocinas",
         imagen : img.src = "foto-productos/bocina-karaoke-rosa.jpg",
         destacado: false 
-    },
+    },*/
     {
         id: 15,
         nombre: "Karaoke",
         descripcion: "Karaoke portátil con un micrófono, altavoz Bluetooth de alta fidelidad con luces de colores, compatible con tarjeta TF, USB y AUX, tamaño mini para viajes, fiestas y exteriores (beig).",
-        precio: 3500,
+        precio: 4000,
         categoria: "bocinas",
         imagen : img.src = "foto-productos/bocina-karaoke-beig.jpg",
         destacado: false 
