@@ -179,7 +179,7 @@ const productos = [
         id: 19,
         nombre: "Trimer T9",
         descripcion: "Cortadora de cabello profesional T9 USB,color dorada, máquina eléctrica recargable para cortar pelo, rasuradora para hombres, kit de peluquería.",
-        precio: 2800,
+        precio: 2600,
         categoria: "otros",
         imagen: img.src = "foto-productos/trimer-t9negra.jpg",
         destacado: false
@@ -188,7 +188,7 @@ const productos = [
         id: 20,
         nombre: "Trimer T9",
         descripcion: "Cortadora de cabello profesional T9 USB,color dorada, máquina eléctrica recargable para cortar pelo, rasuradora para hombres, kit de peluquería.",
-        precio: 2800,
+        precio: 2600,
         categoria: "otros",
         imagen: img.src = "foto-productos/trimer-t9dorada.jpg",
         destacado: false
