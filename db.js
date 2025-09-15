@@ -112,7 +112,7 @@ const productos = [
     },
     {
         id: 12,
-        nombre: "Car Rdio Full Screen",
+        nombre: "Car Radio Full Screen",
         descripcion: "Radio para auto con pantalla de 9″ Android de la marca Auto GP ofrece una experiencia avanzada en entretenimiento vehicular. Con un diseño de 2 din, esta pantalla táctil de 9″ proporciona una visualización clara y amplia. Con 2 GB de RAM y 16 GB de almacenamiento interno, ofrece un rendimiento fluido. La conectividad Bluetooth permite la reproducción inalámbrica y las llamadas manos libres. El GPS integrado proporciona navegación precisa, mientras que el puerto USB y la reproducción MP5 ofrecen opciones versátiles para el entretenimiento.",
         precio: 60000,
         categoria: "reproductoras",
