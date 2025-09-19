@@ -120,7 +120,7 @@ const productos = [
         destacado: false 
     },
     // PRODUCTOS CATEGORIA:BOCINAS
-    {
+    /*{ AGOTADO
         id: 13,
         nombre: "Bocinas A012",
         descripcion: "Altavoz portátil inalámbrico A012 con 5W de potencia, resistente al agua, batería de 800 mAh y Bluetooth. Compatible con tarjetas de memoria.",
@@ -128,7 +128,7 @@ const productos = [
         categoria: "bocinas",
         imagen : img.src = "foto-productos/bocina-a012.jpg",
         destacado: true
-    },
+    },*/
      /*{ AGOTADO
         id: 14,
         nombre: "Karaoke",
