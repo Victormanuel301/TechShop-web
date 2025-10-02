@@ -1,7 +1,7 @@
 const img = document.createElement("img")
 const productos = [
     // PRODUCTOS CATEGORIA:AUDIFONOS
-    {
+    /*{ AGOTADO 
         id: 1,
         nombre: "M20 V5.3-DAMIX",
         descripcion: "Auriculares inalámbricos M20 TWS para teléfono móvil, cascos intrauditivos con Bluetooth, Control táctil inteligente AI ENC, cancelación de ruido. Nueva tecnología Bluetooth 5.3",
@@ -9,7 +9,7 @@ const productos = [
         categoria: "audifonos",
         imagen : img.src = "foto-productos/audifono-m20.jpg",
         destacado: true
-    },
+    },*/
     /*{ AGOTADO
         id: 2,
         nombre: "M25 V5.3-DAMIX ",
@@ -37,7 +37,7 @@ const productos = [
         imagen : img.src = "foto-productos/audifono-a6s.jpg",
         destacado: false 
     },
-    {
+    /*{ AGOTADO 
         id: 22,
         nombre: "A6s Pro-MiPods",
         descripcion: "Audífonos Inalámbricos con Estuche de Carga y Pantalla LED, 4 Horas de Reproducción, Audio Hi-Res y Cancelación Activa de Ruido color: blanco.",
@@ -45,9 +45,9 @@ const productos = [
         categoria: "audifonos",
         imagen : img.src = "foto-productos/audifono-a6sblanco.jpg",
         destacado: false 
-    },
-    /*{
-        id: 5, AGOTADO
+    },*/
+    /*{ AGOTADO
+        id: 5, 
         nombre: "X15",
         descripcion: "Auriculares inalámbricos con efectos de iluminación LED, latencia ultra baja, cancelación activa de ruido, pantalla digital y sonido estéreo,incluye estuche de carga, carga USB-C y diseño portátil",
         precio: 2800,
